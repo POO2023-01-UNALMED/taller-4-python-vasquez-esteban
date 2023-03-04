@@ -12,7 +12,7 @@ class Grupo:
         else:
             self._asignaturas = asignaturas
         if estudiantes is None:
-            self.listadoAlumnos = []
+            self._listadoAlumnos = []
         else:
             self._listadoAlumnos = estudiantes
 
